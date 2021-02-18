@@ -4,6 +4,8 @@ import { StyleSheet, Text, View, SafeAreaView, ImageBackground, FlatList } from 
 
 import TextCenter from './src/components/TextCenter'
 import Home from './src/Views/Home';
+
+import Routes from './src/routes/index'
  
 // import Form from './src/components/Form';
 
@@ -40,12 +42,10 @@ import Home from './src/Views/Home';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Home />
-      <StatusBar style="auto" />
+    
+    <Routes />
 
-
-      {/* <ImageBackground style={styles.background} source={Imgbckgd}>
+      /* <ImageBackground style={styles.background} source={Imgbckgd}>
         <Text style={styles.h1}>Veja nossos produtos</Text>
       </ImageBackground>
       <View style={styles.containerProducts}>
@@ -57,32 +57,46 @@ export default function App() {
           )}
           
         />
-      </View> */}
-    </SafeAreaView>
+      </View> */
+ 
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'brown',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  background: {
-    flex: 3,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-    width: 500,
-    paddingBottom: 50,
-  }, 
-  h1: {
-    fontSize: 30,
-    color: "#fff",
-    fontFamily: "Helvetica",
 
-  },
-  containerProducts: {
-    flex: 7, 
-  }
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: 'brown',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+//   background: {
+//     flex: 3,
+//     justifyContent: 'flex-end',
+//     alignItems: 'center',
+//     width: 500,
+//     paddingBottom: 50,
+//   }, 
+//   h1: {
+//     fontSize: 30,
+//     color: "#fff",
+//     fontFamily: "Helvetica",
+
+//   },
+//   containerProducts: {
+//     flex: 7, 
+//   }
+// });

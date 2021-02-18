@@ -1,12 +1,19 @@
 
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, TouchableOpacity } from 'react-native'
 
 import TextCenter from '../components/TextCenter'
 
-const Home = () => {
+const Home = (props) => {
     return (
         <View>
+            <View>
+                <TouchableOpacity onPress={() => {
+                    props.navigation.openDrawer()
+                }}>
+                    Menu
+                </TouchableOpacity>
+            </View>
             <TextCenter text="Home" />
         </View>
     )

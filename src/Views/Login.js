@@ -7,6 +7,11 @@ import TextCenter from '../components/TextCenter'
 const Login = () => {
     return (
         <View>
+            <TouchableOpacity onPress={() => {
+                    props.navigation.openDrawer()
+                }}>
+                    Menu
+                </TouchableOpacity>
             <TextCenter text="Login" />
         </View>
     )

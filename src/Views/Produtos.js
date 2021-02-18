@@ -4,12 +4,17 @@ import { View, Text } from 'react-native'
 
 import TextCenter from '../components/TextCenter'
 
-const Home = () => {
+const Produtos = () => {
     return (
         <View>
-            <TextCenter text="Home" />
+            <TouchableOpacity onPress={() => {
+                    props.navigation.openDrawer()
+                }}>
+                    Menu
+                </TouchableOpacity>
+            <TextCenter text="Produtos" />
         </View>
     )
 }
 
-export default Home
+export default Produtos
