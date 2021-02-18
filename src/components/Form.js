@@ -10,7 +10,7 @@ const Form = () => {
     return (
         <View style={styles.container}>
             <ImageBackground style={styles.background} source={Background}>
-                <Text style={styles.formTitle}>
+                <Text style={styles.h1}>
                     Cadastre-se
                 </Text>
             </ImageBackground>
@@ -19,7 +19,7 @@ const Form = () => {
                 <Input type="email-address" placeholder="Digite seu email" />
                 <Input type="phone-pad" placeholder="Digite seu telefone" />
                 <Input secureTextEntry placeholder="Digite uma senha" />
-                <Btn text='Cadastrar'/>
+                <Btn text='Cadastrarr'/>
             </View>
         </View>
     )
@@ -28,10 +28,12 @@ const Form = () => {
 export default Form
 
 const styles = StyleSheet.create({
-    formTitle:{
+    h1: {
         fontSize: 24,
         color: '#fff',
         marginTop: 70,
+        fontFamily: 'Helvetica',
+        fontWeight: "100",
     },
     container: {
         flex: 1,
@@ -42,13 +44,13 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100vw',
+        width: 500,
         height: '100vh'
     },
     containerInput:{
         flex:2.5,
         alignItems: 'stretch',
-        width: "100%",
+        width: 500,
     }
 
 })

@@ -24,9 +24,15 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         marginHorizontal: 'auto',
         fontSize: 16,
+        opacity: .9,
+        fontFamily: 'Helvetica',
+        fontWeight: "100",
     },
     txtInput: {
         fontSize: 20,
         marginLeft: 20,
+        fontFamily: 'Helvetica',
+        fontWeight: "100",
+        opacity: .6 ,
     }
 })
