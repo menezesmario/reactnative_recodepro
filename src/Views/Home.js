@@ -2,6 +2,7 @@
 import React from 'react'
 import { View, Text, StyleSheet, ImageBackground } from 'react-native'
 
+
 import TextCenter from '../components/TextCenter'
 import BtnMenu from  '../components/BtnMenu'
 import Background from '../../assets/coffeebean.jpeg'

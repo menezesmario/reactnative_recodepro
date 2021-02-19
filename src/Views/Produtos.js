@@ -10,26 +10,30 @@ import Products from '../components/Products'
 const dados = [
   {
     id: Math.random(),
-    title: "Café 1",
-    description: "Café Um",
+    img: "coffeebean.jpeg",
+    title: "Café Carioca",
+    description: "Café Arábica Boubon Amarelo",
     price: "18,00",
   },
   {
     id: Math.random(),
-    title: "Café 2",
-    description: "Café Dois",
+    img: "coffeebean.jpeg",
+    title: "Café Cerra do Cipó",
+    description: "Bourbon Vermelho",
     price: "18,00",
   },
   {
     id: Math.random(),
-    title: "Café 3",
-    description: "Café Três",
+    img: "coffeebean.jpeg",
+    title: "Café Alto Caparaó",
+    description: "Bourbon Amarelo Frutas Tropicais",
     price: "18,00",
   },
   {
     id: Math.random(),
-    title: "Café 4",
-    description: "Café Quatro",
+    img: "coffeebean.jpeg",
+    title: "Café Chapada Diamantina",
+    description: "Catuaí Vermelho",
     price: "18,00",
   }
 ]

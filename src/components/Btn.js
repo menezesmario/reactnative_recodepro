@@ -31,5 +31,6 @@ const styles = StyleSheet.create({
         margin: 'auto',
         marginTop: 20,
         opacity: .8,
+        marginBottom: 50,
     }
 })
