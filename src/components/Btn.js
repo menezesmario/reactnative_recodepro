@@ -16,18 +16,18 @@ export default Btn
 
 const styles = StyleSheet.create({
     textBtn:{
-        color: 'brown',
+        color: '#fff',
         fontSize: 20,
     },
     button: {
         height: 70,
         alignItems: 'center',
-        backgroundColor: "#FFD700",
+        backgroundColor: "#FF8C00",
         paddingHorizontal: 100,
         paddingVertical: 25,
         width: '80%',
         borderRadius: 50,
-        color: 'brown',
+        color: '#fff',
         margin: 'auto',
         marginTop: 20,
         opacity: .8,
