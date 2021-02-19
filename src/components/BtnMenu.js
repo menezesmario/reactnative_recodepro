@@ -6,6 +6,7 @@ import { View, Text, TouchableOpacity } from 'react-native'
 const BtnMenu = (props) => {
     return (
         <View style={{alignItems: 'flex-end', padding: 20}}>
+            
             <TouchableOpacity
                 onPress={() => {
                     props.navigation.openDrawer();
@@ -20,7 +21,7 @@ const BtnMenu = (props) => {
     )
 }
 
-export default BtnMenu
+export default BtnMenu;
 
 
        

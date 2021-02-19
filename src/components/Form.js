@@ -19,7 +19,7 @@ const Form = () => {
                 <Input type="email-address" placeholder="Digite seu email" />
                 <Input type="phone-pad" placeholder="Digite seu telefone" />
                 <Input secureTextEntry placeholder="Digite uma senha" />
-                <Btn text='Cadastrarr'/>
+                <Btn text='Cadastrar'/>
             </View>
         </View>
     )
