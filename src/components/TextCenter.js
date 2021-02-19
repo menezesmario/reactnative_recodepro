@@ -18,8 +18,9 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#000',
-        opacity: .5,
+        width: '80%',
+        // backgroundColor: '#000',
+        // opacity: .5,
 
     },
     text: {
