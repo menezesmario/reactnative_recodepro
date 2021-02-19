@@ -1,22 +1,18 @@
 
 import React from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View } from 'react-native'
 
 import TextCenter from '../components/TextCenter'
+import BtnMenu from  '../components/BtnMenu'
 
 const Home = (props) => {
     return (
-        <View>
-            <View>
-                <TouchableOpacity onPress={() => {
-                    props.navigation.openDrawer()
-                }}>
-                    Menu
-                </TouchableOpacity>
-            </View>
-            <TextCenter text="Home" />
+        <View style={{flex: 1}}>
+            <BtnMenu navigation={props.navigation}/>
+            <TextCenter text="Home" />            
         </View>
-    )
-}
+    );
+};
 
 export default Home
+
