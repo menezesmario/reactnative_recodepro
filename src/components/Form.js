@@ -11,15 +11,15 @@ const Form = () => {
         <View style={styles.container}>
             <ImageBackground style={styles.background} source={Background}>
                 <Text style={styles.h1}>
-                    Cadastre-se
+                    Entre
                 </Text>
             </ImageBackground>
             <View style={styles.containerInput}>
-                <Input placeholder='Digite seu nome'/>
+                {/* <Input placeholder='Digite seu nome'/> */}
                 <Input type="email-address" placeholder="Digite seu email" />
-                <Input type="phone-pad" placeholder="Digite seu telefone" />
-                <Input secureTextEntry placeholder="Digite uma senha" />
-                <Btn text='Cadastrar'/>
+                {/* <Input type="phone-pad" placeholder="Digite seu telefone" /> */}
+                <Input secureTextEntry placeholder="Digite sua senha" />
+                <Btn text='Entrar'/>
             </View>
         </View>
     )

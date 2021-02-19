@@ -11,7 +11,7 @@ const Login = (props) => {
     return (
         <View style={{flex: 1}}>
         <BtnMenu navigation={props.navigation}/>
-        <TextCenter text="Login" /> 
+        {/* <TextCenter text="Login" />  */}
         <Form />           
     </View>
     )
